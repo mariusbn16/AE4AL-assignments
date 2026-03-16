@@ -1,0 +1,12 @@
+table;a piece of furniture with 4 legs and a surface used for meals or for office work
+monitor;a computer device, a display
+mouse;a small mobile manual device that controls movement of the cursor and selection of functions on a computer display
+beamer; a projector
+projector; a beamer
+ceiling; top surface of a room
+sky; the space with and above clouds, including clouds
+window; glass filled opening
+keyboard; a computer device with keys for entering texts and numbers
+trash bin; a container for storing garbage
+switch; device for turning on electricity
+phone; a communication devices
