@@ -25,7 +25,8 @@ public class Main {
         Scanner input = null;
         try {
             input = new Scanner(new FileInputStream(new File(args[0])));
-            ArrayList<wordinfo> words = new ArrayList<wordinfo>();
+            input.useDelimiter("\\W");
+            MyArrayList<wordinfo> words = new MyArrayList<wordinfo>();
             long startTime = System.currentTimeMillis();
             while (input.hasNext()){
                 String word = input.next().toLowerCase();

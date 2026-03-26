@@ -33,6 +33,7 @@ public class MainHashVersion {
         Scanner input = null;
         try {
             input = new Scanner(new FileInputStream(new File(args[0])));
+            input.useDelimiter("\\W");
             HashMap<String, Integer> words = new HashMap<>();
             long startTime = System.currentTimeMillis();
             while (input.hasNext()){
