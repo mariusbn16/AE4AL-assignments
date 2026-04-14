@@ -34,7 +34,10 @@ public class MainHashVersion {
         try {
             input = new Scanner(new FileInputStream(new File(args[0])));
             input.useDelimiter("\\W");
-            HashMap<String, Integer> words = new HashMap<>();
+
+            //HashMap<String, Integer> words = new HashMap<>();
+            MyHashTable words = new MyHashTable(10000);
+
             long startTime = System.currentTimeMillis();
             while (input.hasNext()){
                 String word = input.next().toLowerCase();
